@@ -1,14 +1,9 @@
 import './App.css'
-import NES from "./NES.jsx";
-import GBCA from "./GB.C.A.jsx";
-import SNES from "./SNES.jsx";
-import N64 from "./N64.jsx";
-import GC from "./GC.jsx";
 import NESGames from "./NES.jsx";
-import GBCAList from "./GB.C.A.jsx";
-import SNESList from "./SNES.jsx";
-import N64List from "./N64.jsx";
-import GCList from "./GC.jsx";
+import GBCAGames from "./GB.C.A.jsx";
+import SNESGames from "./SNES.jsx";
+import N64Games from "./N64.jsx";
+import GCGames from "./GC.jsx";
 
 const App = () => {
 
