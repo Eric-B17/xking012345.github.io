@@ -4,62 +4,69 @@ import GBCA from "./GB.C.A.jsx";
 import SNES from "./SNES.jsx";
 import N64 from "./N64.jsx";
 import GC from "./GC.jsx";
+import NESGames from "./NES.jsx";
+import GBCAList from "./GB.C.A.jsx";
+import SNESList from "./SNES.jsx";
+import N64List from "./N64.jsx";
+import GCList from "./GC.jsx";
 
 const App = () => {
 
   const nes = [
-    "Bread",
-    "Water",
-    "Cereal",
-    "Turkey Meat",
-    "Lettuce",
-    "Cookie"
-  ]
+    "Super Mario Bros",
+    "Legend Of Zelda",
+    "Kirby’s Adventure",
+    "Punch-Out",
+    "Duck Hunt"
+
+]
 
   const gbca = [
-    "Bread",
-    "Water",
-    "Cereal",
-    "Turkey Meat",
-    "Lettuce",
-    "Cookie"
-  ]
+    "Pokémon Red/Blue/Yellow",
+    "The Legend of Zelda: Link’s Awakening",
+    "Kirby & The Amazing Mirror",
+    "Metroid Fusion",
+    "Golden Sun"
+
+]
 
   const snes = [
-    "Bread",
-    "Water",
-    "Cereal",
-    "Turkey Meat",
-    "Lettuce",
-    "Cookie"
+    "Super Mario World",
+    "Super Metroid",
+    "Donkey Kong Country",
+    "Kirby Super Star",
+    "Earthbound/Mother"
+
   ]
 
   const n64 = [
-    "Bread",
-    "Water",
-    "Cereal",
-    "Turkey Meat",
-    "Lettuce",
-    "Cookie"
+    "Super Mario 64",
+    "Legend Of Zelda Ocarina of Time",
+    "Donkey Kong 64",
+    "Star Fox 64",
+    "F-Zero X"
+
   ]
 
   const gc = [
-    "Bread",
-    "Water",
-    "Cereal",
-    "Turkey Meat",
-    "Lettuce",
-    "Cookie"
-  ]
+    "Legend of Zelda Wind Waker",
+    "F-Zero GX",
+    "Luigi’s Mansion",
+    "Metroid Prime",
+    "Pikmin"
 
-  const shopping = [
-    "Bread",
-    "Water",
-    "Cereal",
-    "Turkey Meat",
-    "Lettuce",
-    "Cookie"
-  ]
+]
+
+return (
+    <>
+    <NESGames nes={nes}></NESGames>
+    <GBCAGames gbca={gbca}></GBCAGames>
+    <SNESGames snes={snes}></SNESGames>
+    <N64Games n64={n64}></N64Games>
+    <GCGames gc={gc}></GCGames>
+      </>
+)
+
 
 }
 

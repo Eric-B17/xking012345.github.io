@@ -1,4 +1,4 @@
-const N64List = ({n64}) => {
+const N64Games = ({n64}) => {
     return (
         <ul>
             {n64.map (n64games => (
@@ -8,4 +8,4 @@ const N64List = ({n64}) => {
     );
 };
 
-export default N64List;
+export default N64Games;

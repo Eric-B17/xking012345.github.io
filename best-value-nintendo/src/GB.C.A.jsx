@@ -1,4 +1,4 @@
-const GBCAList = ({gbca}) => {
+const GBCAGames = ({gbca}) => {
     return (
         <ul>
             {gbca.map (gbcagames => (
@@ -8,4 +8,4 @@ const GBCAList = ({gbca}) => {
     );
 };
 
-export default GBCAList;
+export default GBCAGames;

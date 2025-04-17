@@ -1,4 +1,4 @@
-const SNESList = ({snes}) => {
+const SNESGames = ({snes}) => {
     return (
         <ul>
             {snes.map (snesgames => (
@@ -8,4 +8,4 @@ const SNESList = ({snes}) => {
     );
 };
 
-export default SNESList;
+export default SNESGames;

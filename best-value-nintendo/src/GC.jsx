@@ -1,4 +1,4 @@
-const GCList = ({gc}) => {
+const GCGames = ({gc}) => {
     return (
         <ul>
             {gc.map (gcgames => (
@@ -8,4 +8,4 @@ const GCList = ({gc}) => {
     );
 };
 
-export default GCList;
+export default GCGames;
