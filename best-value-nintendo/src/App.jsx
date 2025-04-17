@@ -57,7 +57,8 @@ const App = () => {
         "Pokemon Black/White/Black 2/White 2",
         "The Legend of Zelda: Phantom Hourglass",
         "Animal Crossing: Wild World",
-        "Nintendogs"
+        "Nintendogs",
+        "Some Other Game"
     ]
 
     const ThreeDs = [
