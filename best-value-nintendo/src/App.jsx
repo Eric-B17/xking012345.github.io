@@ -1,16 +1,6 @@
 import './App.css'
 
-import NESGames from "./NES.jsx";
-import GBCAGames from "./GB.C.A.jsx";
-import SNESGames from "./SNES.jsx";
-import N64Games from "./N64.jsx";
-import GCGames from "./GC.jsx";
-
-import DsGames from "./DS.jsx";
-import ThreeDsGames from "./3DS.jsx";
-import WiiGames from "./Wii.jsx";
-import WiiUGames from "./Wii U.jsx";
-import SwitchGames from "./Switch.jsx";
+import Games from "./Games.jsx";
 
 
 const App = () => {
@@ -57,7 +47,6 @@ const App = () => {
         "The Legend of Zelda: Phantom Hourglass",
         "Animal Crossing: Wild World",
         "Nintendogs",
-        "Some Other Game"
     ]
     const ThreeDs = [
         "Tomodachi Life",
@@ -88,18 +77,19 @@ const App = () => {
         "Fire Emblem: Three Houses"
     ]
 
+
 return (
     <>
-        <NESGames nes={nes}></NESGames>
-        <GBCAGames gbca={gbca}></GBCAGames>
-        <SNESGames snes={snes}></SNESGames>
-        <N64Games n64={n64}></N64Games>
-        <GCGames gc={gc}></GCGames>
-        <DsGames Ds={Ds}></DsGames>
-        <ThreeDsGames ThreeDs={ThreeDs}></ThreeDsGames>
-        <WiiGames Wii={Wii}></WiiGames>
-        <WiiUGames WiiU={WiiU}></WiiUGames>
-        <SwitchGames Switch={Switch}></SwitchGames>
+        <Games games={nes}></Games>
+        <Games games={gbca}></Games>
+        <Games games={snes}></Games>
+        <Games games={n64}></Games>
+        <Games games={gc}></Games>
+        <Games games={Ds}></Games>
+        <Games games={ThreeDs}></Games>
+        <Games games={Wii}></Games>
+        <Games games={WiiU}></Games>
+        <Games games={Switch}></Games>
       </>
 )
 
