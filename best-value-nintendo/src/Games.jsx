@@ -3,7 +3,7 @@ const Games = ({games}) => {
         <ul>
             {games.map((game, index) => (
                 <li key={index}>{game}</li>
-            ))};
+            ))}
         </ul>
     );
 };
