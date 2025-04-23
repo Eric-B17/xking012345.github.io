@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: red;
+  background-color: rgba(233, 0, 0, 255);
   width: 1600px;
   height: 670px;
   font-family: Algerian;
@@ -52,4 +52,8 @@ Tab{
   width: 180px;
   height: 180px;
   object-fit: cover;
+}
+
+li{
+  list-style: none;
 }
