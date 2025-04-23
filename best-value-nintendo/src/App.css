@@ -42,3 +42,13 @@
 .read-the-docs {
   color: #888;
 }
+
+Tab{
+  background-color: green;
+}
+
+& img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
